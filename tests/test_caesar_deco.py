@@ -7,7 +7,7 @@ import pytest
 
 from click.testing import CliRunner
 
-from caesar_deco import caesar_deco
+# from caesar_deco import caesar_deco
 from caesar_deco import cli
 
 
