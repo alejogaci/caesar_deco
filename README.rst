@@ -28,8 +28,16 @@ Features
 
 * TODO
 
+Special Information
+-------
+
+Caesar is a type of encryption widely used in cryptography due to its "simplicity". It consists of replacing each letter of the message that is wanted to be encrypted by another one that is a fixed number of positions later in the alphabet. For example, with a displacement of 5 the letter A would be the F and the letter B would be the G
+
+With this package you can decrypt any message encrypted in caesar without needing to know the displacement
+
 Credits
 -------
+
 
 This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
 
