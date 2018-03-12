@@ -3,14 +3,13 @@
 """Console script for caesar_deco."""
 import sys
 import click
-
+from caesar_deco.caesar_deco import caesar_decoder
 
 @click.command()
-def main(args=None):
+@click.argument('texto', type=str)
+def main(texto):
     """Console script for caesar_deco."""
-    click.echo("Replace this message by putting your code into "
-               "caesar_deco.cli.main")
-    click.echo("See click documentation at http://click.pocoo.org/")
+    caesar_decoder(texto)
     return 0
 
 

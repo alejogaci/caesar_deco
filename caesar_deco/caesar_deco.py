@@ -74,4 +74,4 @@ def caesar_decoder(texto):
         soluciones.append(caracteres)
     soluciones = np.asarray(soluciones)
     soluciones = soluciones.transpose()
-    return print(soluciones)
+    print(soluciones)
