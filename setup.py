@@ -33,11 +33,11 @@ setup(
         'Programming Language :: Python :: 3.6',
     ],
     description="Caesar decoder Utility",
-    entry_points={
-        'console_scripts': [
-            'caesar_deco=caesar_deco.cli:main',
-        ],
-    },
+#    entry_points={
+#        'console_scripts': [
+#            'caesar_deco=caesar_deco.cli:main',
+#        ],
+#    },
     install_requires=requirements,
     license="MIT license",
     long_description=readme + '\n\n' + history,
