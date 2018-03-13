@@ -3,7 +3,7 @@
 """Console script for caesar_deco."""
 import sys
 import click
-from caesar_deco import caesar_decoder
+from caesar_deco.caesar_deco import caesar_decoder
 
 @click.command()
 @click.argument('texto', type=str)
